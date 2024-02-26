@@ -44,13 +44,10 @@
             displayFahrToCel.style.display = "none";
             displayCeltoKel.style.display = "none";
             displayKelToCel.style.display = "none";
-
         }
     } 
 
     select.addEventListener("change", displayOperation);
-
-    
 })();
 
 (function() {
@@ -74,7 +71,6 @@
         });
 
         calculateBtnFtoC.addEventListener("click", calcFtoC);
-
 })();
 
 (function() {
@@ -138,13 +134,12 @@
             resultCtoK.innerHTML = convertedValue.toFixed(2) + " °C"; 
         }
     }
-
     inputCtoK.addEventListener("input", function() {
         resultCtoK.innerHTML = "";
     });
-
     calculateBtnCtoK.addEventListener("click", calcCtoK);
 })();
+
             // Converts Years to Seconds
 (function() {
     let convBtn = document.getElementById("calculateBtnYtoS");
@@ -156,11 +151,10 @@
 
     let convertedTime = inputFloat * 31536000;
     result.innerHTML = convertedTime.toLocaleString();
-    
 }
-
     convBtn.addEventListener("click", convertTime);
 })();
+
             // Reset inputfield and result
 (function() {
     let results = document.getElementsByClassName("resultDivStyle");
@@ -176,7 +170,6 @@
             inputs[i].value = ""; // Clear input
         }
     }
-
     select.addEventListener("change", resetNumbers);
 })();
 

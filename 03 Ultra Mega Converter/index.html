@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ULTRA MEGA CONVERTER</title>
+</head>
+<body class="container anta-regular">
+    <h1 id="title">ULTRA MEGA CONVERTER NOZZLER</h1>
+    <div id="opSelOuter">
+        <h2 class="titleStyle">Select Operation</h2>
+        <select id="operationSelect">
+            <option value="FtoC">F° to C°</option>
+            <option value="CtoF">C° to F°</option>
+            <option value="KtoC">K° to C°</option>
+            <option value="CtoK">C° to K°</option>
+            <option value="YtoS">Years to Seconds</option>
+        </select>
+    </div>
+    <!-- FtoC - Fahrenheit to Celcius -->
+    <div id="fahrToCelDiv">
+        <h2 class="titleStyle">F° to C°</h2>
+        <input class="inputStyle" id="userInputFtoC" type="number"> 
+        <button class="calculateBtnStyle" id="calculateBtnFtoC">CALCULATE</button>
+        <div class="resultDivStyle" id="resultLblFtoC"></div>  
+    </div>
+    <!-- CtoF - Celcius to Fahrenheit -->
+    <div id="celToFahrDiv">
+        <h2 class="titleStyle">C° to F°</h2>
+        <input class="inputStyle" id="userInputCtoF" type="number">
+        <button class="calculateBtnStyle" id="calculateBtnCtoF">CALCULATE</button>
+        <div class="resultDivStyle" id="resultLblCtoF"></div>   
+    </div>
+    <!-- KtoC - Kelvin to Celcius -->
+    <div id="KelToCelDiv">
+        <h2 class="titleStyle">K° to C°</h2>
+        <input class="inputStyle" id="userInputKtoC" type="number">
+        <button class="calculateBtnStyle" id="calculateBtnKtoC">CALCULATE</button>
+        <div class="resultDivStyle" id="resultLblKtoC"></div>  
+    </div>
+    <!-- CtoK - Celcius to Kelvin -->
+    <div id="CelToKelDiv">
+        <h2 class="titleStyle">C° to K°</h2>
+        <input class="inputStyle" id="userInputCtoK" type="number">
+        <button class="calculateBtnStyle" id="calculateBtnCtoK">CALCULATE</button>
+        <div class="resultDivStyle" id="resultLblCtoK"></div>  
+    </div> 
+    <!-- YtoS - Years to Seconds -->
+    <div id="yearsToSecondsDiv">
+        <h2 class="titleStyle">Years to Seconds</h2>
+        <input class="inputStyle" id="userInputYtoS">
+        <button class="calculateBtnStyle" id="calculateBtnYtoS">CALCULATE</button>
+        <div class="resultDivStyle" id="resultYtoS"></div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>

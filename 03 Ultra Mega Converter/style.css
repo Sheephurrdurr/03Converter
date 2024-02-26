@@ -1,0 +1,126 @@
+.anta-regular {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+#fahrToCelDiv {
+    display:block;
+}
+#celToFahrDiv {
+   display:none;
+}
+#KelToCelDiv {
+    display:none;
+}
+#CelToKelDiv {
+    display:none;
+}
+#yearsToSecondsDiv {
+    display:none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align items (horizontally) in the center */
+    justify-content: center; /* Align content (vertically) in the center */
+    min-height: 100vh; /* Ensure container takes up at least the height of the viewport */
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #0E162B;
+}
+
+#title {
+    text-align: center;
+    font-weight:400;
+    color:#0047CC;
+    margin-bottom:20px;
+}
+
+.titleStyle {
+    color:#0047CC;
+    text-align: center;
+    font-size: 1em;
+}
+
+#opSelOuter {
+    margin-bottom: 20px;
+}
+
+#operationSelect {
+    height:40px;
+    width:180px;
+    padding:5px;
+    font-size:17px;
+    border-radius: 10px;
+    border:1px #0047CC solid;
+    background-color: #0F0E2B;
+    color:#0047CC;
+    margin-bottom: 20px; 
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;  
+}
+#operationSelect:focus {
+    border-color:#0047CC;
+    outline:none;
+}
+
+.inputStyle::-webkit-inner-spin-button,
+.inputStyle::-webkit-outer-spin-button {
+    -webkit-appearance: none; 
+    appearance: none; 
+    margin: 0; 
+}
+
+.inputStyle {
+    display:block;
+    height:35px;
+    width:150px;
+    border-radius: 10px;
+    border:1px #0047CC solid;
+    margin: 15px 15px 15px 0px;
+    background-color: #0F0E2B;
+    color:#0047CC;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:23px;
+    text-align: center;
+    
+}
+.inputStyle:focus {
+    border-color:#0047CC;
+    outline:none;
+}
+
+.calculateBtnStyle {
+    height:35px;
+    width:150px;
+    background-color: #0F0E2B;
+    color:#0047CC;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 10px;
+    border:1px #0047CC solid;
+    font-size:17px;
+    text-align: center;
+    margin-left:3px;
+    padding:7px;
+    cursor: pointer;
+}
+.calculateBtnStyle:hover {
+    background-color: #04040c; 
+}
+
+.resultDivStyle {
+    display:block;
+    margin-top:15px;
+    color:#0047CC;
+    font-size:25px;
+    text-align:center;
+    height:35px;
+}
+

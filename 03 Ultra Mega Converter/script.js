@@ -1,4 +1,4 @@
-// Function checks which option is selected and displays the div matching the type
+// Check which option is selected and display the div matching the type
 (function() {
     let select = document.getElementById("operationSelect");
 
@@ -61,8 +61,8 @@
             if (isNaN(inputFloatFtoC)) { // Check for Not a Number in userinput
                 resultFtoC.innerHTML = "Type a number"; 
             } else {
-                let convertedValue = (inputFloatFtoC - 32) * 5 / 9; // Run the math and store in variable
-                resultFtoC.innerHTML = convertedValue.toFixed(2) + " °C"; // display variable, with max 2 decimals
+                let convertedValue = (inputFloatFtoC - 32) * 5 / 9; // Run calculation and store in variable
+                resultFtoC.innerHTML = convertedValue.toFixed(2) + " °C"; // Display variable, with max 2 decimals
             }
         }
     
